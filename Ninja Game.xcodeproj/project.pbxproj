@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADB5CA6720B0990A00D447C9 /* arrow.gif in Resources */ = {isa = PBXBuildFile; fileRef = ADB5CA6620B0990900D447C9 /* arrow.gif */; };
+		ADB5CA6B20B09D6A00D447C9 /* shootButton.png in Resources */ = {isa = PBXBuildFile; fileRef = ADB5CA6A20B09D6A00D447C9 /* shootButton.png */; };
+		ADC8171020A3C01900F55E16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8170F20A3C01900F55E16 /* AppDelegate.swift */; };
+		ADC8171220A3C01900F55E16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8171120A3C01900F55E16 /* ViewController.swift */; };
+		ADC8171520A3C01900F55E16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC8171320A3C01900F55E16 /* Main.storyboard */; };
+		ADC8171720A3C01900F55E16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADC8171620A3C01900F55E16 /* Assets.xcassets */; };
+		ADC8171A20A3C01900F55E16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC8171820A3C01900F55E16 /* LaunchScreen.storyboard */; };
+		ADC8172520A3C01900F55E16 /* Ninja_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8172420A3C01900F55E16 /* Ninja_GameTests.swift */; };
+		ADC8173020A3C01900F55E16 /* Ninja_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8172F20A3C01900F55E16 /* Ninja_GameUITests.swift */; };
+		ADC8173E20A3C16600F55E16 /* ninja.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADC8173D20A3C16500F55E16 /* ninja.jpg */; };
+		ADC8174020A3C22F00F55E16 /* Ninja.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8173F20A3C22F00F55E16 /* Ninja.swift */; };
+		ADCA766B20AE3B10004915A4 /* rightButton.png in Resources */ = {isa = PBXBuildFile; fileRef = ADCA766A20AE3B0F004915A4 /* rightButton.png */; };
+		ADCA766D20AE3B18004915A4 /* leftButton.png in Resources */ = {isa = PBXBuildFile; fileRef = ADCA766C20AE3B17004915A4 /* leftButton.png */; };
+		ADCA766F20AE3B28004915A4 /* upButton.png in Resources */ = {isa = PBXBuildFile; fileRef = ADCA766E20AE3B28004915A4 /* upButton.png */; };
+		ADCA767120AE3C02004915A4 /* downButton.png in Resources */ = {isa = PBXBuildFile; fileRef = ADCA767020AE3C02004915A4 /* downButton.png */; };
+		ADCA767320AE4420004915A4 /* ninja.png in Resources */ = {isa = PBXBuildFile; fileRef = ADCA767220AE441F004915A4 /* ninja.png */; };
+		ADCA767720AE4E62004915A4 /* boost.png in Resources */ = {isa = PBXBuildFile; fileRef = ADCA767620AE4E61004915A4 /* boost.png */; };
+		ADEA435020AA5C4D0065465A /* fireshuriken.gif in Resources */ = {isa = PBXBuildFile; fileRef = ADEA434F20AA5C4D0065465A /* fireshuriken.gif */; };
+		ADEA435220AA61290065465A /* battlefield.png in Resources */ = {isa = PBXBuildFile; fileRef = ADEA435120AA61290065465A /* battlefield.png */; };
+		ADEA435420AA61910065465A /* zombie.png in Resources */ = {isa = PBXBuildFile; fileRef = ADEA435320AA61910065465A /* zombie.png */; };
+		ADEA435820AA61ED0065465A /* shuriken.gif in Resources */ = {isa = PBXBuildFile; fileRef = ADEA435720AA61ED0065465A /* shuriken.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADC8172120A3C01900F55E16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADC8170420A3C01900F55E16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADC8170B20A3C01900F55E16;
+			remoteInfo = "Ninja Game";
+		};
+		ADC8172C20A3C01900F55E16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADC8170420A3C01900F55E16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADC8170B20A3C01900F55E16;
+			remoteInfo = "Ninja Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADB5CA6620B0990900D447C9 /* arrow.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = arrow.gif; sourceTree = "<group>"; };
+		ADB5CA6A20B09D6A00D447C9 /* shootButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shootButton.png; sourceTree = "<group>"; };
+		ADC8170C20A3C01900F55E16 /* Ninja Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ninja Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC8170F20A3C01900F55E16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADC8171120A3C01900F55E16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADC8171420A3C01900F55E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADC8171620A3C01900F55E16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADC8171920A3C01900F55E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADC8171B20A3C01900F55E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADC8172020A3C01900F55E16 /* Ninja GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ninja GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC8172420A3C01900F55E16 /* Ninja_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ninja_GameTests.swift; sourceTree = "<group>"; };
+		ADC8172620A3C01900F55E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADC8172B20A3C01900F55E16 /* Ninja GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ninja GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC8172F20A3C01900F55E16 /* Ninja_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ninja_GameUITests.swift; sourceTree = "<group>"; };
+		ADC8173120A3C01900F55E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADC8173D20A3C16500F55E16 /* ninja.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ninja.jpg; sourceTree = "<group>"; };
+		ADC8173F20A3C22F00F55E16 /* Ninja.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ninja.swift; sourceTree = "<group>"; };
+		ADCA766A20AE3B0F004915A4 /* rightButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightButton.png; sourceTree = "<group>"; };
+		ADCA766C20AE3B17004915A4 /* leftButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftButton.png; sourceTree = "<group>"; };
+		ADCA766E20AE3B28004915A4 /* upButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upButton.png; sourceTree = "<group>"; };
+		ADCA767020AE3C02004915A4 /* downButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downButton.png; sourceTree = "<group>"; };
+		ADCA767220AE441F004915A4 /* ninja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ninja.png; sourceTree = "<group>"; };
+		ADCA767620AE4E61004915A4 /* boost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boost.png; sourceTree = "<group>"; };
+		ADEA434F20AA5C4D0065465A /* fireshuriken.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = fireshuriken.gif; sourceTree = "<group>"; };
+		ADEA435120AA61290065465A /* battlefield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battlefield.png; sourceTree = "<group>"; };
+		ADEA435320AA61910065465A /* zombie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zombie.png; sourceTree = "<group>"; };
+		ADEA435720AA61ED0065465A /* shuriken.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = shuriken.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADC8170920A3C01900F55E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC8171D20A3C01900F55E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC8172820A3C01900F55E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADC8170320A3C01900F55E16 = {
+			isa = PBXGroup;
+			children = (
+				ADC8170E20A3C01900F55E16 /* Ninja Game */,
+				ADC8172320A3C01900F55E16 /* Ninja GameTests */,
+				ADC8172E20A3C01900F55E16 /* Ninja GameUITests */,
+				ADC8170D20A3C01900F55E16 /* Products */,
+				ADC8173D20A3C16500F55E16 /* ninja.jpg */,
+				ADEA435120AA61290065465A /* battlefield.png */,
+				ADEA434F20AA5C4D0065465A /* fireshuriken.gif */,
+				ADEA435720AA61ED0065465A /* shuriken.gif */,
+				ADEA435320AA61910065465A /* zombie.png */,
+				ADCA766A20AE3B0F004915A4 /* rightButton.png */,
+				ADCA766C20AE3B17004915A4 /* leftButton.png */,
+				ADCA766E20AE3B28004915A4 /* upButton.png */,
+				ADCA767020AE3C02004915A4 /* downButton.png */,
+				ADCA767220AE441F004915A4 /* ninja.png */,
+				ADCA767620AE4E61004915A4 /* boost.png */,
+				ADB5CA6620B0990900D447C9 /* arrow.gif */,
+				ADB5CA6A20B09D6A00D447C9 /* shootButton.png */,
+			);
+			sourceTree = "<group>";
+		};
+		ADC8170D20A3C01900F55E16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADC8170C20A3C01900F55E16 /* Ninja Game.app */,
+				ADC8172020A3C01900F55E16 /* Ninja GameTests.xctest */,
+				ADC8172B20A3C01900F55E16 /* Ninja GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADC8170E20A3C01900F55E16 /* Ninja Game */ = {
+			isa = PBXGroup;
+			children = (
+				ADC8170F20A3C01900F55E16 /* AppDelegate.swift */,
+				ADC8173F20A3C22F00F55E16 /* Ninja.swift */,
+				ADC8171120A3C01900F55E16 /* ViewController.swift */,
+				ADC8171320A3C01900F55E16 /* Main.storyboard */,
+				ADC8171620A3C01900F55E16 /* Assets.xcassets */,
+				ADC8171820A3C01900F55E16 /* LaunchScreen.storyboard */,
+				ADC8171B20A3C01900F55E16 /* Info.plist */,
+			);
+			path = "Ninja Game";
+			sourceTree = "<group>";
+		};
+		ADC8172320A3C01900F55E16 /* Ninja GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADC8172420A3C01900F55E16 /* Ninja_GameTests.swift */,
+				ADC8172620A3C01900F55E16 /* Info.plist */,
+			);
+			path = "Ninja GameTests";
+			sourceTree = "<group>";
+		};
+		ADC8172E20A3C01900F55E16 /* Ninja GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADC8172F20A3C01900F55E16 /* Ninja_GameUITests.swift */,
+				ADC8173120A3C01900F55E16 /* Info.plist */,
+			);
+			path = "Ninja GameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADC8170B20A3C01900F55E16 /* Ninja Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADC8173420A3C01900F55E16 /* Build configuration list for PBXNativeTarget "Ninja Game" */;
+			buildPhases = (
+				ADC8170820A3C01900F55E16 /* Sources */,
+				ADC8170920A3C01900F55E16 /* Frameworks */,
+				ADC8170A20A3C01900F55E16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ninja Game";
+			productName = "Ninja Game";
+			productReference = ADC8170C20A3C01900F55E16 /* Ninja Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADC8171F20A3C01900F55E16 /* Ninja GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADC8173720A3C01900F55E16 /* Build configuration list for PBXNativeTarget "Ninja GameTests" */;
+			buildPhases = (
+				ADC8171C20A3C01900F55E16 /* Sources */,
+				ADC8171D20A3C01900F55E16 /* Frameworks */,
+				ADC8171E20A3C01900F55E16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADC8172220A3C01900F55E16 /* PBXTargetDependency */,
+			);
+			name = "Ninja GameTests";
+			productName = "Ninja GameTests";
+			productReference = ADC8172020A3C01900F55E16 /* Ninja GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADC8172A20A3C01900F55E16 /* Ninja GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADC8173A20A3C01900F55E16 /* Build configuration list for PBXNativeTarget "Ninja GameUITests" */;
+			buildPhases = (
+				ADC8172720A3C01900F55E16 /* Sources */,
+				ADC8172820A3C01900F55E16 /* Frameworks */,
+				ADC8172920A3C01900F55E16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADC8172D20A3C01900F55E16 /* PBXTargetDependency */,
+			);
+			name = "Ninja GameUITests";
+			productName = "Ninja GameUITests";
+			productReference = ADC8172B20A3C01900F55E16 /* Ninja GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADC8170420A3C01900F55E16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = UCode;
+				TargetAttributes = {
+					ADC8170B20A3C01900F55E16 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					ADC8171F20A3C01900F55E16 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ADC8170B20A3C01900F55E16;
+					};
+					ADC8172A20A3C01900F55E16 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ADC8170B20A3C01900F55E16;
+					};
+				};
+			};
+			buildConfigurationList = ADC8170720A3C01900F55E16 /* Build configuration list for PBXProject "Ninja Game" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADC8170320A3C01900F55E16;
+			productRefGroup = ADC8170D20A3C01900F55E16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADC8170B20A3C01900F55E16 /* Ninja Game */,
+				ADC8171F20A3C01900F55E16 /* Ninja GameTests */,
+				ADC8172A20A3C01900F55E16 /* Ninja GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADC8170A20A3C01900F55E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC8173E20A3C16600F55E16 /* ninja.jpg in Resources */,
+				ADEA435820AA61ED0065465A /* shuriken.gif in Resources */,
+				ADC8171A20A3C01900F55E16 /* LaunchScreen.storyboard in Resources */,
+				ADCA766F20AE3B28004915A4 /* upButton.png in Resources */,
+				ADEA435420AA61910065465A /* zombie.png in Resources */,
+				ADEA435220AA61290065465A /* battlefield.png in Resources */,
+				ADB5CA6B20B09D6A00D447C9 /* shootButton.png in Resources */,
+				ADCA766D20AE3B18004915A4 /* leftButton.png in Resources */,
+				ADCA766B20AE3B10004915A4 /* rightButton.png in Resources */,
+				ADC8171720A3C01900F55E16 /* Assets.xcassets in Resources */,
+				ADCA767720AE4E62004915A4 /* boost.png in Resources */,
+				ADCA767320AE4420004915A4 /* ninja.png in Resources */,
+				ADB5CA6720B0990A00D447C9 /* arrow.gif in Resources */,
+				ADCA767120AE3C02004915A4 /* downButton.png in Resources */,
+				ADEA435020AA5C4D0065465A /* fireshuriken.gif in Resources */,
+				ADC8171520A3C01900F55E16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC8171E20A3C01900F55E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC8172920A3C01900F55E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADC8170820A3C01900F55E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC8174020A3C22F00F55E16 /* Ninja.swift in Sources */,
+				ADC8171220A3C01900F55E16 /* ViewController.swift in Sources */,
+				ADC8171020A3C01900F55E16 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC8171C20A3C01900F55E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC8172520A3C01900F55E16 /* Ninja_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC8172720A3C01900F55E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC8173020A3C01900F55E16 /* Ninja_GameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADC8172220A3C01900F55E16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADC8170B20A3C01900F55E16 /* Ninja Game */;
+			targetProxy = ADC8172120A3C01900F55E16 /* PBXContainerItemProxy */;
+		};
+		ADC8172D20A3C01900F55E16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADC8170B20A3C01900F55E16 /* Ninja Game */;
+			targetProxy = ADC8172C20A3C01900F55E16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADC8171320A3C01900F55E16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADC8171420A3C01900F55E16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADC8171820A3C01900F55E16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADC8171920A3C01900F55E16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADC8173220A3C01900F55E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADC8173320A3C01900F55E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADC8173520A3C01900F55E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ninja Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathan.Ninja-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADC8173620A3C01900F55E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ninja Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathan.Ninja-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ADC8173820A3C01900F55E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ninja GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathan.Ninja-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ninja Game.app/Ninja Game";
+			};
+			name = Debug;
+		};
+		ADC8173920A3C01900F55E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ninja GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathan.Ninja-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ninja Game.app/Ninja Game";
+			};
+			name = Release;
+		};
+		ADC8173B20A3C01900F55E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ninja GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathan.Ninja-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ninja Game";
+			};
+			name = Debug;
+		};
+		ADC8173C20A3C01900F55E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ninja GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathan.Ninja-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ninja Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADC8170720A3C01900F55E16 /* Build configuration list for PBXProject "Ninja Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC8173220A3C01900F55E16 /* Debug */,
+				ADC8173320A3C01900F55E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADC8173420A3C01900F55E16 /* Build configuration list for PBXNativeTarget "Ninja Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC8173520A3C01900F55E16 /* Debug */,
+				ADC8173620A3C01900F55E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADC8173720A3C01900F55E16 /* Build configuration list for PBXNativeTarget "Ninja GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC8173820A3C01900F55E16 /* Debug */,
+				ADC8173920A3C01900F55E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADC8173A20A3C01900F55E16 /* Build configuration list for PBXNativeTarget "Ninja GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC8173B20A3C01900F55E16 /* Debug */,
+				ADC8173C20A3C01900F55E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADC8170420A3C01900F55E16 /* Project object */;
+}
